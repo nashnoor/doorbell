@@ -1,3 +1,6 @@
 # doorbell_python_flask
-Install Flask app via pip/pip3 command 
-Clone this repository
+<p> Install Flask app via pip/pip3 command </p>
+<p> pip install Flask</p>
+<p> or</p>
+<p> pip3 install Flask</p>
+<p> Clone this repository</p>
