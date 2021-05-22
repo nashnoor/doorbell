@@ -8,7 +8,7 @@ def index():
 
 @app.route('/ring')
 def ring():
-   file = open(r'/home/pi/webapp/play.py', 'r').read()
+   file = open(r'/home/pi/doorbell_python_flask/webapp/play.py', 'r').read()
    f=exec(file)
    return redirect(url_for('index')), f
   
