@@ -1,0 +1,10 @@
+[Unit]
+Description=doorbell.service
+
+[Service]
+ExecStart=/usr/bin/webapp python3 app.py
+WorkingDirectory=/usr/bin/webapp
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
