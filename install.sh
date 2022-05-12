@@ -1,5 +1,5 @@
 #!/bin/bash
-apt install python3 python3-pip -y
+apt install python3 python3-pip git -y
 pip install flask waitress
 git clone https://github.com/assynergy/flask_app.git
 cd flask_app
