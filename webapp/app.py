@@ -12,7 +12,9 @@ def index():
 def ring():
    file = str(os.system("aplay bell.wav"))
    f=exec(file)
-   return redirect(url_for('index')), f
+   noti=str(os.system("python3 noti.py"))
+   n=exec(noti)
+   return redirect(url_for('index')), n , f
   
 if __name__ == '__main__':
    serve(app, host='0.0.0.0', port=5001) #For Production Environment 
