@@ -1,8 +1,9 @@
 #!/bin/bash
 apt install python3 python3-pip git -y
-pip install flask waitress
+pip3 install flask waitress telegram-send
 git clone https://github.com/nasrulnoor/doorbell_flask.git
 cd doorbell_flask
+#pip3 install -r requirements.txt
 cp -r webapp /usr/bin/webapp
 cp doorbell.service /lib/systemd/system
 systemctl enable doorbell
