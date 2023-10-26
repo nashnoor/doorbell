@@ -1,5 +1,3 @@
 import requests
-token = "<bot-token>"
-url = f"https://api.telegram.org/bot{token}"
-params = {"chat_id": "<your-id>", "text": "Someone at the door"}
-r = requests.get(url + "/sendMessage", params=params)
+requests.post("https://ntfy.sh/mytopic",
+    data="Someone at the door😀".encode(encoding='utf-8'))
