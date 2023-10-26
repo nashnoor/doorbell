@@ -10,8 +10,6 @@ def index():
 
 @app.route('/ring')
 def ring():
-   file = str(os.system("aplay bell.wav"))
-   f=exec(file)
    noti=str(os.system("python3 noti.py"))
    n=exec(noti)
    return redirect(url_for('index')), n , f
