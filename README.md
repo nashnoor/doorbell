@@ -1,7 +1,7 @@
 # Digital Doorbell System
 Just copy and paste code below into the terminal
 ```
-curl https://raw.githubusercontent.com/nasrulnoor/doorbell_flask/main/install.sh > install.sh 
+curl https://raw.githubusercontent.com/nashnoor/doorbell/main/install.sh > install.sh 
 chmod +x install.sh
 sudo ./install.sh
 ```
