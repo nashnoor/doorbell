@@ -15,4 +15,4 @@ Please create <a href=https://github.com/nasrulnoor/doorbell_flask/issues>issues
 
 Feel free to create a pull request if you have any suggestions for my project.
 
-Happy coding!! :)
+Happy coding!!
